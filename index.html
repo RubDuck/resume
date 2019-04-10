@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>我的简历</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5,user-scalable=no">
+    <link rel="stylesheet" href="./css/a.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+    <script src="//at.alicdn.com/t/font_930038_mpnwrc6t75.js"></script>
+  </head>
+  <body>
+    <div id='siteWelcome' class='site-welcome active'>
+        <div class="loading">
+          </div>
+    </div>
+
+    <div id='sitetopnavbar' class="topnavbar">
+      <div class="topinner clearfix">
+        <a class="logo" href="#" alt="logo" style="float:left">
+            <span class="rs">Resume</span>
+          </a>
+          <nav class="menu" style="float:right">
+            <ul class="clearfix">
+              <li ><a href="#About">关于</a></li>
+              <li ><a href="#Skills">技能</a></li>
+              <li class="menuTigger" ><a  href="#Works">作品</a>
+              </li>
+              <li class="menuTigger" ><a href="#Massages" >留言</a>
+              </li>
+              <li ><a href="https://www.zhihu.com/people/xiao-xiao-juan-er-78/activities" target="_blank">知乎</a></li>
+              <li ><a href="https://github.com/RubDuck" target="_blank">github</a></li>
+              <li ><a href="https://rubduck.github.io/Minios/index.html" target="_blank">其他</a></li>
+            </ul>
+          </nav>
+        
+      </div>
+      
+    </div>
+    <div class="bananer">
+
+	    <div class="mask"></div>
+
+    </div>
+    <main>
+      <div data-x  id='About' class="Usercard">
+        <div class="maintext clearfix">
+          <div class="picture">
+            <img src="./image/touxiang.jpg" alt="头像">
+          </div>
+          <div class="profile">
+            <span class="welcome">你好，我在应聘前端工程师
+              <span class="triangle"></span>
+            </span>
+
+            <h1>黄长陵</h1>
+            <p>前端工程师</p>
+            <hr>
+            <dl class="clearfix">
+              <dt>年龄</dt>
+              <dd>25</dd>
+              <dt>所在城市</dt>
+              <dd>江西</dd>
+              <dt>邮箱</dt>
+              <dd>1056586590@qq.com</dd>
+              <dt>毕业学校</dt>
+              <dd>景德镇陶瓷大学</dd>
+              <dt>专业</dt>
+              <dd>信息与计算科学</dd>
+            </dl>
+          </div>
+        </div>
+
+        <footer class="media">
+          <a href="#">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-QQ"></use>
+            </svg>
+          </a>
+          <a href="https://github.com/RubDuck" target="_blank">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-github"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-xinlang"></use>
+            </svg>
+          </a>
+  
+        </footer>
+      </div>
+      <div class="buttoninner">
+        <a class="button" download href="https://github.com//RubDuck/resume/raw/master/resume-2/pdf/2019%E5%89%8D%E7%AB%AF%E9%BB%84%E9%95%BF%E9%99%B5.pdf" target="_self">下载 PDF简历</a>
+      </div>
+    </main>
+    <section data-x  id="Skills" class="skills">
+      <h2>技能</h2>
+      <ol class="clearfix">
+        <li>
+          <h3>
+              HTML 5 && CSS 3
+          </h3>
+          <p>能独立制作精美网页，掌握CSS 3 动画、过渡效果、响应式等常用技术</p>
+        </li>
+        <li>
+            <h3>
+               jQuery
+            </h3>
+            <P>熟悉jQuery的常用API，能使用jQuery制作网站、轮播等</P>
+          </li>
+          <li>
+              <h3>
+                  Vue
+              </h3>
+             <p>熟悉Vue常用功能，如组件、Vue-Router、双向绑定等</p>
+            </li>
+            <li>
+                <h3>
+                    前端框架
+                </h3>
+           <p>理解MVC、MVVM等思想，可以熟练使用相关的库，如Vue</p>
+              </li>
+              
+      </ol>
+    </section>
+    <section data-x id="Works" class="portfolio">
+      <h2>作品集</h2>
+      <div id='mySlider'>
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <li class="swiper-slide">
+                <a href="https://rubduck.github.io/item/keybord-guid/" target="_blank">
+                  <img src="./image/slider1.png" alt="导航键盘"title='键盘导航' >
+                </a>
+            </li>
+            <li class="swiper-slide">
+                <a href="https://rubduck.github.io/youz/youzan/dist/"target="_blank">
+                  <img src="./image/slider2.png" alt="商城"title='有赞商城'>
+              </a> 
+            </li>
+            <li class="swiper-slide">
+                <a href="https://rubduck.github.io/item/canvas/"target="_blank"> 
+                  <img src="./image/slider3.png" alt="画板" title='canvas画板'>
+              </a>
+            </li>
+      
+              </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="Massages"  data-x id='Massages'>  
+      <h2>留言</h2>
+      <div class="messagelist">
+        <div class='text'></div>
+        <form id="postMassages">
+            <input type="text" name="message" id='message'placeholder='请输入你要留下的信息...'>
+            <input type="text" name="name" id='name' placeholder='你的id信息...'>
+            <input type="submit" value="留言" id='submit' >
+        
+          </form>
+      </div>
+     
+  </section>
+  <script src="./js/loading.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js'></script>
+  <script src="./js/swiper.js"></script>
+  <script src="./js/auto-slider-up.js"></script>
+  <script src="./js/topnavbar-change.js"></script>
+  <script src="./js/smoothly-navigation.js"></script>
+  <script src="./js/Massages.js"></script>
+
+
+  </body>
+</html>
