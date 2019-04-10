@@ -214,15 +214,19 @@ ul, ol ,li{
 .Usercard .profile hr {
   margin: 25px 0; }
 
+.Usercard .profile .resmessage{
+  display: flex;
+  flex-wrap: wrap
+}
 .Usercard .profile dt {
-  float: left;
+
   width: 30%;
   font-weight: bold;
   padding: 5px 0; }
 
 .Usercard .profile dd {
-  float: left;
-  width: 70%;
+ 
+  width: 60%;
   color: #9da0a7;
   padding: 5px 0; }
 
